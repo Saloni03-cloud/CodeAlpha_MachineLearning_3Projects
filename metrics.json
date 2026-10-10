@@ -1,0 +1,24 @@
+{
+  "dataset": "Wisconsin Diagnostic Breast Cancer (scikit-learn)",
+  "target_mapping": {
+    "0": "malignant",
+    "1": "benign"
+  },
+  "model_comparison": {
+    "logistic_regression": {
+      "accuracy": 0.9824561403508771,
+      "precision_benign_class": 0.9861111111111112,
+      "recall_benign_class": 0.9861111111111112,
+      "f1_benign_class": 0.9861111111111112,
+      "roc_auc": 0.9953703703703703
+    },
+    "random_forest": {
+      "accuracy": 0.9473684210526315,
+      "precision_benign_class": 0.9583333333333334,
+      "recall_benign_class": 0.9583333333333334,
+      "f1_benign_class": 0.9583333333333334,
+      "roc_auc": 0.9927248677248677
+    }
+  },
+  "selected_model_by_test_roc_auc": "logistic_regression"
+}
